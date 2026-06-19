@@ -111,6 +111,18 @@ Forgot Password → updates password in localStorage
 ---
 
 ## 🔮 Future Enhancements
+
+🔜 Backend integration with Node.js/Firebase
+
+🔜 Payment gateway integration
+
+🔜 Real-time vehicle availability
+
+🔜 Admin dashboard
+
+🔜 Email notifications
+
+🔜 Mobile responsive design
 ---
 
 ## 📄 License
