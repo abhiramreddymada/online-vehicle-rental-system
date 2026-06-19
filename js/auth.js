@@ -12,7 +12,8 @@ document.getElementById('signupForm')?.addEventListener('submit', function (e) {
     if (existingUser) {
         alert("Email already registered. Please use a different email.");
     } else {
-        users.push({ email: newEmail, password: newPassword });
+        const username = document.getElementById('username').value;
+users.push({ email: newEmail, username: username, password: newPassword });;
         localStorage.setItem('users', JSON.stringify(users));
         alert("Signup successful! Please log in.");
         window.location.href = "login.html";
